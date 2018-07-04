@@ -1,0 +1,36 @@
+www.cnn.com A
+DNSSEC is not supported
+
+QUESTION SECTION :
+www.cnn.com.            0       IN      A
+
+ANSWER SECTION :
+www.cnn.com.            300     IN      CNAME   turner-tls.map.fastly.net.
+turner-tls.map.fastly.net.      30      IN      A       151.101.201.67
+
+
+Query Time : 10msec
+When : Mon Feb 19 23:03:35 EST 2018
+MSG SIZE rcvd 131
+
+**************************************************************************************
+
+cs.stonybrook.edu MX
+DNSSEC is not supported
+
+
+QUESTION SECTION :
+cs.stonybrook.edu.      0       IN      MX
+
+
+ANSWER SECTION :
+cs.stonybrook.edu.      900     IN      MX      2 aspmx.l.google.com.
+cs.stonybrook.edu.      900     IN      MX      10 aspmx3.googlemail.com.
+cs.stonybrook.edu.      900     IN      MX      10 aspmx2.googlemail.com.
+cs.stonybrook.edu.      900     IN      MX      5 alt2.aspmx.l.google.com.
+cs.stonybrook.edu.      900     IN      MX      5 alt1.aspmx.l.google.com.
+
+
+Query Time : 37msec
+When : Mon Feb 19 23:05:01 EST 2018
+MSG SIZE rcvd 168
